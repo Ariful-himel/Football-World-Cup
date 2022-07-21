@@ -39,8 +39,11 @@
          display: flex;
          flex-direction: column;
          justify-content: center;
-         width: 60rem;
+         width: 50em;
          padding: 50px;
+         height: 37em;
+         margin-right: 10rem;
+        
           
 }
 
@@ -50,6 +53,8 @@
           font-size: 60px;
           color: #FFFFFF; 
           font-family: poppins;
+         
+         
 
 }
 .banner-about{
@@ -57,20 +62,42 @@
           font-size: 16px;
           color: #FFFFFF; 
           font-family: poppins;
+          margin-top: 0;
+        
 
 }
 .banner-button{
           display: flex;
-          padding: 16px 25px;
+          padding: 16px ;
           width: 187px;
-          height: 56px;
+          height: 46px;
           background: #DD0000;
           border-radius: 5px;
           font-weight: 400;
           font-size: 20px;
           justify-content: space-between;
           text-align: center;
+          align-items: center;
           color: #FFFFFF;
+          margin-left: 20px;
+         
+          
+}
+
+.banner-button:hover{
+        
+        background: #00dd5c;
+        color: #FFFFFF;
+        transform: scale(1.25);
+        cursor: pointer;
+        transition: height 5s, width 5s ;
+        height: 50px;
+        width:200px;
+
+}
+.banner-img{
+        height: 15em;
+        width: 30em;
 }
 
 /* header part area end  */
@@ -111,10 +138,13 @@ main{
           margin: 30px;
           background: #FFFFFF;
           border-radius: 10px;
+          border: 1px solid #000;
           padding: 20px;
           font-weight: 500;
           font-size: 20px;
           color: #000;
+          width: 312px;
+          height: 62px;
 
 }
 .main-link-area  #blog{
@@ -183,6 +213,9 @@ main{
           justify-content: space-between;
           margin-right: 140px;
           
+}
+.view{
+        visibility: hidden;
 }
 /* main part area end */
 
@@ -281,6 +314,7 @@ body{
         width: 90vh;
         justify-content:center ;
         align-items: center;
+       
 }
 .banner{
         display: flex;
@@ -288,6 +322,7 @@ body{
         justify-content: center;
         height: 150vh;
         width: 80%;
+       
 
 
 }
@@ -299,6 +334,7 @@ body{
        justify-content: center;
        align-items: center;
        width: 80%;
+      
        
         
 }
@@ -425,7 +461,7 @@ footer{
 
 /* --------media query----------- */
 
-@media only screen and (min-width: 600px) and (max-width:768px) {
+@media only screen and (min-width: 600px) and (max-width:868px) {
 body{
                  background-color: #fbf5eb; 
                 justify-content: center;
@@ -434,19 +470,13 @@ body{
 
 
 /* baner style  */
-.top-banner{
-        width: 100%;
-        justify-content: center;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-}
+
 .banner{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        height: 130vh;
-        width: 100%;
+        height: 120vh;
+       
 
 
 }
@@ -454,20 +484,16 @@ body{
 .banner-details{
         
        display: flex;
-       flex-direction: column;
+       
        justify-content: center;
        align-items: center;
        width: 100%;
        
+       
         
 }
 .banner-img{
-display: flex;
-       flex-direction: column;
-       justify-content: center;
-       align-items: center;
        width: 100%;
-
 }
 .banner-title{
         
@@ -565,6 +591,9 @@ button a{
        margin-left: 35%;
       cursor: pointer;
        
+}
+.view{
+        visibility: visible;
 }
 .social-media{
         display: none;
