@@ -155,11 +155,9 @@ main{
 
 }
 .main-link-area a:hover{
+        background-color: #00dd51;
+        color: #FFFFFF;
          
-          background: #DD0000;
-          color: white;
-         
-
 }
 
 
@@ -559,11 +557,11 @@ main{
 }
 .main-link-area a {
         width: 100%;
-       
         border-radius: 10px;
         margin-left: 10px;
         display: flex;
-}
+} 
+
 /* main blog area */
 .blogs-sec{
         display: grid;
@@ -589,7 +587,7 @@ button a{
         font-size: 20px;
         text-align: center;
        margin-left: 35%;
-      cursor: pointer;
+       cursor: pointer;
        
 }
 .view{

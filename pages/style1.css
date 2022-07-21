@@ -88,61 +88,6 @@
 
 /* ------------------------- */
 
-/* main part area start  */
-/* main{
-    display: flex;
-    justify-content:center;
-    gap: 20px;
-    margin: 100px;
-
-}
-
-main left link  */
-
-
-/* .main-left{
-    width: 312px;
-    height: 312px; 
-    background: #161616;
-    border-radius: 10px;
-    
-    
-}
-.main-left-area {
-
-    display: flex;
-    justify-content: center;
-
-} 
-.main-link-area a{
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    margin: 30px;
-    background: #FFFFFF;
-    border-radius: 10px;
-    padding: 20px;
-    font-weight: 500;
-    font-size: 20px;
-    color: #000;
-
-}
-.main-link-area  #blog{
-   
-    background: #DD0000;
-    color: white;
-    
-
-}
-.main-link-area a:hover{
-   
-    background: #DD0000;
-    color: white;
-   
-
-} */
-
-
 
 
 /* main blog style */
@@ -184,7 +129,7 @@ main left link  */
     color: #FFFFFF;
 }
 .mainLeft a:hover{
-    background-color: #DD0000;
+    background-color: #00dd51;
     color: #FFFFFF;
 }
 
